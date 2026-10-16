@@ -9,6 +9,3 @@ always #10 a=a+1;
 always #20 b=b+1;
 end
 endmodule
-
-// structral code
-module halfadder()
