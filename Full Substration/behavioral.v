@@ -9,6 +9,3 @@ always @ (A or B or Bin) begin
     Bout = (~A & B) | ((~(A ^ B)) & Bin);
 end
 endmodule
-
-//module fullsub (a,b,bin,d,bout)
-  //input a,b,bin 
