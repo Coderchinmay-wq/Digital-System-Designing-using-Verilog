@@ -15,3 +15,23 @@ module dc38tb();
     $stop;
   end
 endmodule
+
+// use this test bench for structural module code inputs, output and inside initial begin 
+ reg a, b, c, en;
+ wire y0, y1, y2, y3, y4, y5, y6, y7;
+
+decoder38 uut (a, b, c, en, y0, y1, y2, y3, y4, y5, y6, y7);
+
+initial begin
+ en = 1;
+ a = 0; b = 0; c = 0; #10;
+ a = 0; b = 0; c = 1; #10;
+ a = 0; b = 1; c = 0; #10;
+ a = 0; b = 1; c = 1; #10;
+ a = 1; b = 0; c = 0; #10;
+ a = 1; b = 0; c = 1; #10;
+ a = 1; b = 1; c = 0; #10;
+ a = 1; b = 1; c = 1; #10;
+en = 0; a = 0; b = 0; c = 0; #10; 
+$finish;
+  // till here for structural before end and endmodule
