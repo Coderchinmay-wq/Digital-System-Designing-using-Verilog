@@ -69,6 +69,7 @@ The repository currently includes the following experiments:
 | Code converters | Binary to Gray Code | Behavioral, Dataflow |
 | Code converters | Gray to Binary Code | Behavioral |
 | Code converters | BCD to Excess-3 Code | Behavioral |
+| Arithmetic circuits | Array Multiplyer | Dataflow |
 
 > The table reflects the source files currently present in the repository. Not every experiment includes all three modelling styles or a testbench yet.
 
@@ -80,6 +81,7 @@ Experiments are grouped into folders by circuit. The repository currently includ
 
 ```text
 Digital-System-Designing-using-Verilog/
+├── Array Multiplyer
 ├── BCD_to_Execess3/
 ├── Binary_to_Gray/
 ├── Carry Look Ahead(CLA) Logic/
