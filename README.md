@@ -69,7 +69,7 @@ The repository currently includes the following experiments:
 | Code converters | Binary to Gray Code | Behavioral, Dataflow |
 | Code converters | Gray to Binary Code | Behavioral |
 | Code converters | BCD to Excess-3 Code | Behavioral |
-| Arithmetic circuits | Array Multiplyer | Dataflow |
+| Arithmetic circuits | Array Multipler | Behavioral, Dataflow |
 
 > The table reflects the source files currently present in the repository. Not every experiment includes all three modelling styles or a testbench yet.
 
